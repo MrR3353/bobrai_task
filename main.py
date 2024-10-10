@@ -1,8 +1,8 @@
 from datetime import datetime
 
-import uvicorn
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
+
 from db import get_db
 from models import RequestLog
 
